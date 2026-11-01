@@ -8,7 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "test": "node --experimental-strip-types --test src/utils/refundCalculation.test.ts"
   },
   "dependencies": {
     "@radix-ui/react-dropdown-menu": "^2.2.1",
